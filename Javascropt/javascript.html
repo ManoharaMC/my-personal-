@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="../Javascropt/javascript.css">
+    <link rel="stylesheet" href="../bootstrap-5.0.0-dist/bootstrap-5.0.0-dist/css/bootstrap.css">
+</head>
+<body>
+    <section>
+        <nav class="navbar  navbar-expand-lg navbar navbar-dark bg-dark" id="color" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">MC tutorial</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+                <div class="navbar-nav mx-auto">
+                  <a class="nav-link active"  id="icon" aria-current="page" href="../index.html">Home</a>
+                  <a class="nav-link"  id="icon" href="../html/html.html">Html</a>
+                  <a class="nav-link"  id="icon" href="../CSS/css.html">Css</a>
+                  <a class="nav-link"  id="icon" href="./javascript.html">Javascript</a>
+                  <a class="nav-link"  id="icon" href="../html/htmlbook.html">Books</a>
+                 
+                </div>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <section>
+        <section>
+            <div class="mt-2">
+                <h3 class="text-center">Javascript Interview Questions & Answer</h3>
+            </div>
+            </section>
+            <section class="space">
+            <div class="mt-5">
+              <p><strong>1. What is JavaScript?</strong></p>
+                <p>JavaScript is the most popular web scripting language, used for both client-side and server-side development. Supporting object-oriented programming abilities, the JavaScript code can be inserted into HTML pages that can be understood and executed by web browsers.<br></p>
+           
+              <p><strong>3.Explain the various JavaScript data types??</strong></p>
+            <p>There are two types of Datatypes:</p>
+                  <ul> <p> <strong>i) Primitive Data Types</strong></p>
+                   <li>Boolean – Represents true and false values.</li>
+                   <li>Null – Represents empty, nothing, and unknown type of values</li>
+                   <li>Number – Represents both integer and floating-point values.</li>
+                   <li>String – Represents single-character, multi-character, and alphanumeric values.</li>
+                    
+                   <li>Symbol – Used for creating unique identifiers for objects</li>
+                   <li> Undefined – Represents value not assigned. If a variable is only declared and not assigned in JS, it represents the undefined data type.</li>
+                </ul> 
+                <ul> <p> <strong>i) Non Primitive Data Types</strong></p>
+                    <li>Object – Used for storing collections of data or more complex entities</li>
+                </ul>
+
+                <p><strong> 4.what are the features of JavaScript?</strong></p> 
+            <ul>
+                <li>  A lightweight interpreted a programming language with some object-oriented capabilities.</li>
+                <li>  An open, cross-platform scripting language</li>
+                <li>  Complements and integrates with the Java programming language as well as other backend technologies.</li>
+                <li>  Designed especially for creating network-centric applications</li>
+            </ul>
+              <p><strong>5.Can you differentiate between let and var?</strong></p>  
+              <p>Both let and var are used for variable and method declaration in JavaScript.and most important difference between the two JS keywords is that while the var keyword is function scoped, the let keyword is block scoped.</p>
+             <p><strong> What is the use of isNaN function?</strong></p>
+             <p>isNan function returns true if the argument is not a number; otherwise, it is false.</p>
+          <p><strong>6.What are undeclared and undefined variables?</strong></p>
+          <p>*Undeclared variables are those that do not exist in a program and are not declared. If the program tries to read the value of an undeclared variable, then a runtime error is encountered.
+                <br>
+            *Undefined variables are those that are declared in the program but have not been given any value. If the program tries to read the value of an undefined variable, an undefined value is returned.</p>
+          <p><strong>7.What are global variables? How are these variable declared?</strong></p>
+        <p>Global variables are available throughout the length of the code so that it has no scope. The var keyword is used to declare a local variable or object. If the var keyword is omitted, a global variable is declared.  <br>Example:  Declare a global: globalVariable = "Test";</p>
+          <p><strong>8.What is a prompt box?</strong></p>     
+          <p>A prompt box is a box that allows the user to enter input by providing a text box. A label and box will be provided to enter the text or number.</p>
+           <p><strong>9.What is 'this' keyword in JavaScript?</strong></p>     
+             <p>'This' keyword refers to the object from where it was called.</p>  
+             <p><strong>10.What is the working of timers in JavaScript?</strong></p>
+             <p>Timers are used to execute a piece of code at a set time or repeat the code in a given interval. This is done by using the functions setTimeout, setInterval, and clearInterval. <br>
+               The setTimeout(function, delay) function is used to start a timer that calls a particular function after the mentioned delay. The setInterval(function, delay) function repeatedly executes the given function in the mentioned delay and only halts when canceled. The clearInterval(id) function instructs the timer to stop. <br>
+                
+                Timers are operated within a single thread, and thus events might queue up, waiting to be executed.</p>
+           <p><strong>11.What is the difference between ViewState and SessionState?</strong></p>
+           <p>ViewState' is specific to a page in a session. <br>
+            'SessionState' is specific to user-specific data that can be accessed across all web application pages.</p>
+              <p><strong>12.What is === operator?</strong></p> 
+              <p>=== is called a strict equality operator, which returns true when the two operands have the same value without conversion.</p>
+            <p><strong>13.Does JavaScript support automatic type conversion?</strong></p>
+            <p>Yes, JavaScript does support automatic type conversion. It is the common way of type conversion used by JavaScript developers</p>
+        <p><strong>14. Difference between "==" and "==="?</strong></p>
+        <p>"==" checks only for equality in value, whereas "===" is a stricter equality test and returns false if either the value or the type of the two variables are different.</p>
+         <p><strong>15.What do you mean by NULL in Javascript?</strong></p>
+         <p> The NULL value is used to represent no value or no object. It implies no object or null string, no valid boolean value, no number, and no array object.</p>
+         <p><strong>16.What is variable hoisting in JavaScript?</strong></p>
+         <p>Hoisting means variables and function declarations are moved to the top of their scope before code execution. </p>
+         <p><strong>17.what is Functions?</strong></p>
+         <p>function allows you to define a block of code, give it a name and then execute it as many times as you want.</p>
+         <p> <strong> 18.what is Function Parameters?</strong></p>
+         <p>A function can have one or more parameters, which will be supplied by the calling code and can be used inside a function. <br>
+             <strong> Example: </strong> 
+            function ShowMessage(firstName, lastName) {  <br>
+            alert("Hello " + firstName + " " + lastName); <br>
+        } <br>
+        ShowMessage("Steve", "Jobs"); <br>
+        ShowMessage("Bill", "Gates"); <br>
+        ShowMessage(100, 200);</p>
+         <p><strong></strong></p>
+         <p><strong>19.what is Array?</strong></p>
+         <p>An array is a special type of variable, which can store multiple values</p>
+        <p><strong>20.</strong>
+             <strong>***** Array Important points  ******</strong> 
+                <li> An array is a special type of variable that stores multiple values</li>
+                <li> An array can be created using array literal or Array constructor</li>
+                <li>Array literal syntax: var stringArray = ["one", "two", "three"];</li>
+                <li> Array constructor syntax:var numericArray = new Array(3);</li>
+                <li>A single array can store values of different data types.</li>
+                <li>An array elements (values) can be accessed using zero based index (key). e.g. array[0].</li>
+                <li>An array index must be numeric.</li>
+                <li>Array includes length property and various methods to operate on array objects.</li></p>
+           <p><strong>21.What are Array helper Methods?</strong></p>
+           <ul>
+               <li><strong> concat():--</strong>The JavaScript Array concat() method returns a new array by merging two or more values/arrays.</li>
+               <li><strong> every():--</strong>Returns true or false if every element in the specified array satisfies a condition specified in the callback function. Returns false even if single element does not satisfy the condition.</li>
+               <li><strong> filter():--</strong>	Returns a new array with all the elements that satisfy a condition specified in the callback function.</li>
+               <li><strong> forEach():--</strong> Executes a callback function for each elements of an array.</li>
+               <li><strong> indexOf():--</strong>Returns the index of the first occurrence of the specified element in the array.</li>
+               <li><strong> lastIndexOf():--</strong>Returns the index of the last occurrence of the specified element in the array.</li>
+               <li><strong> join():--</strong>Returns string of all the elements separated by the specified separator</li>
+               <li><strong> map():--</strong>Creates a new array with the results of calling a provided function on every element in this array.</li>
+               <li><strong> push():--</strong>Adds one or more elements at the end of an array and returns the new length of the array.</li>
+               <li><strong> pop():--</strong>Removes the last element from an array and returns that element.</li>
+               <li><strong> shift():--</strong>Removes the first element from an array and returns that element.</li>
+               <li><strong> unshift():--</strong>Adds one or more elements to the front of an array and returns the new length of the array.</li>
+               <li><strong> reduce():--</strong>Pass two elements simultaneously in the callback function (till it reaches the last element) and returns a single value.</li>
+               <li><strong> reverse():--</strong>	Reverses the elements of an array. Element at last index will be first and element at 0 index will be last.</li>
+               <li><strong> splice():--</strong>	Adds and/or removes elements from an array.</li>
+               <li><strong> toString():--</strong>Returns a string representing the array and its elements.</li>
+               <li><strong> sort():--</strong>Sorts the elements of an array.</li>
+               <li><strong> some():--</strong>Returns true if at least one element in this array satisfies the condition in the callback function.</li>
+               <li><strong> slice():--</strong>Returns a new array with specified start to end elements. </li>
+               <li><strong> reduceRight():--</strong>Pass two elements simultaneously in the callback function from right-to-left (till it reaches the last element) and returns a single value.</li>
+               <li><strong> fill():--</strong>The JavaScript Array fill() method returns an array by filling all elements with a static value.</li>
+               <li><strong> findindex():--</strong>The JavaScript Array findIndex() method returns the index of the first array element that satisfies the provided test function or else returns -1.</li>
+               <li><strong> find():--</strong>The JavaScript Array find() method returns the value of the first array element that satisfies the provided test function.</li>
+               <li><strong> includes():--</strong>The JavaScript Array includes() method checks if an array has a certain value among its entries.</li>
+               <li><strong> form():--</strong>The JavaScript Array.from() static method creates a shallow-copied Array instance from an array-like or iterable object.</li>
+               <li><strong> copywithin():--</strong>The JavaScript Array copyWithin() method shallow copies array elements to another position in the array, overwriting the existing values.</li>
+               <li><strong> entries():--</strong>The JavaScript Array entries() method returns a new Array Iterator object containing key/value pairs for each array index.</li>
+               <li><strong> keys():--</strong>The JavaScript Array keys() method returns a new Array Iterator object that contains the keys for each index in the array.</li>
+               <li><strong> values():--</strong>The JavaScript Array values() method returns a new Array Iterator object that contains the values for each index in the array.</li>   
+           </ul>
+           <p><strong>22. what is String?</strong></p>
+           <p>String is a primitive data type in JavaScript. A string is textual content. It must be enclosed in single or double quotation marks.</p>
+            <p><strong>23. what are String helper method?</strong></p>
+            <ul>
+            <li><strong>charAt(index):--</strong>returns the character at the specified index</li>
+            <li><strong> charAt(position):--</strong> 	Returns the character at the specified position (in Number).</li>
+            <li><strong> charCodeAt(position):--</strong>Returns a number indicating the Unicode value of the character at the given position (in Number).</li>
+            <li><strong> concat([string,,]):--</strong>Joins specified string literal values (specify multiple strings separated by comma) and returns a new string.</li>
+            <li><strong> indexOf(SearchString, Position):--</strong>Returns the index of first occurrence of specified String starting from specified number index.</li>
+            <li><strong> lastIndexOf(SearchString, Position):--</strong>Returns the last occurrence index of specified SearchString, starting from specified position.</li>
+            <li><strong> localeCompare(string,position):--</strong>Compares two strings in the current locale.</li>
+            <li><strong> match(RegExp):--</strong>Search a string for a match using specified regular expression. Returns a matching array.</li>
+            <li><strong> replace(searchValue, replaceValue):--</strong>	Search specified string value and replace with specified replace Value string and return new string. Regular expression can also be used as searchValue.</li>
+            <li><strong> search(RegExp):--</strong>  	Search for a match based on specified regular expression.</li>
+            <li><strong> slice(startNumber, endNumber):--</strong>	Extracts a section of a string based on specified starting and ending index and returns a new string.</li>
+            <li><strong> split(separatorString, limitNumber):--</strong>Splits a String into an array of strings by separating the string into substrings based on specified separator. Regular expression can also be used as separator.</li>
+            <li><strong> substr(start, length):--</strong>Returns the characters in a string from specified starting position through the specified number of characters (length).</li>
+            <li><strong> substring(start, end):--</strong>	Returns the characters in a string between start and end indexes.</li>
+            <li><strong> toLocaleLowerCase():--</strong>Converts a string to lower case according to current locale.</li>
+            <li><strong> toLocaleUpperCase():--</strong>Converts a sting to upper case according to current locale.</li>
+            <li><strong> toLowerCase():--</strong>Returns lower case string value.</li>
+            <li><strong> toString():--</strong>Returns the value of String object.</li>
+            <li><strong> toUpperCase():--</strong>Returns upper case string value.</li>
+            <li><strong> valueOf():--</strong>Returns the primitive value of the specified string object.</li>
+            </ul>
+            <p><strong>24.What is a Promise?</strong></p>
+            <p>A promise is an object that may produce a single value some time in the future: either a resolved value, or a reason that it’s not resolved </p>
+               <ul>
+                   <li> <strong>fulfilled -</strong>  The action relating to the promise succeeded</li>
+                   <li><strong>rejected - </strong> The action relating to the promise failed</li>
+                   <li><strong>pending -</strong>  Hasn't fulfilled or rejected yet</li>
+                   <li><strong>settled -</strong>  Has fulfilled or rejected</li>
+               </ul>
+               <p><strong>25. What is Object</strong></p>
+               <p>Object is a non-primitive data type in JavaScript. It is like any other variable, the only difference is that an object holds multiple values in terms of properties and methods. Properties can hold values of primitive data types and methods are functions.</p>
+               <p>Object can be created in two ways:
+                   <ul>
+                       <li><strong> Object literal:--</strong>The object literal is a simple way of creating an object using { } brackets. You can include key-value pair in { }, where key would be property or method name and value will be value of property of any data type or a function. Use comma (,) to separate multiple key-value pairs.</li>
+                       <li><strong> Object constructor:--</strong>The second way to create an object is with Object Constructor using new keyword. You can attach properties and methods using dot notation.</li>
+                   </ul> </p>
+     
+             
+              
+             
+              
+
+	
+        
+
+
+
+
+	
+
+	
+
+
+	
+
+	
+      
+        
+         
+          
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <script src="../bootstrap-5.0.0-dist/bootstrap-5.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="../jquery-3.6.0.min.js"></script>
+</body>
+</html>

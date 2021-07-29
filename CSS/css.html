@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="../bootstrap-5.0.0-dist/bootstrap-5.0.0-dist/css/bootstrap.css">
+</head>
+<body>
+  <section>
+    <nav class="navbar  navbar-expand-lg navbar navbar-dark bg-dark" id="color" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">MC tutorial</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link active"  id="icon" aria-current="page" href="../index.html">Home</a>
+            <a class="nav-link"  id="icon" href="../html/html.html">Html</a>
+            <a class="nav-link"  id="icon" href="./css.html">Css</a>
+            <a class="nav-link"  id="icon" href="../Javascropt/javascript.html">Javascript</a>
+            <a class="nav-link"  id="icon" href="../html/htmlbook.html">Books</a>
+           
+          </div>
+        </div>
+      </div>
+    </nav>
+    </section>
+    <section>
+        <div class="mt-2">
+            <h3 class="text-center">CSS Interview Questions & Answer</h3>
+        </div>
+        </section>
+        <section class="space">
+        <div class="mt-5">
+          <p><strong>1. What is CSS?</strong></p>
+            <p>CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in markup language.<br></p>
+       
+        <div class="mt-2">
+          <p><strong>2.What does CSS do ?</strong></p>
+          <p>You can add new looks to your old HTML documents.  You can completely change the look of your website with only a few changes in CSS code.</p>
+           <p><strong>3.What are the major versions of CSS?</strong></p>
+           <ul>
+            <li>css1</li>
+            <li>css2</li>
+            <li>css2.1</li>
+            <li>css3</li>
+           </ul>
+           <p><strong>4.What is the Box model in CSS? Which CSS properties are a part of it?</strong></p>
+           <p>The box model is used to determine the height and width of the rectangular box. The CSS Box consists of Width and height (or in the absence of that, default values and the content inside), padding, borders, margin.</p>
+            <ul>
+              <li>Content:  Actual Content of the box where the text or image placed.</li>
+              <li>Padding: Area surrounding the content (Space between the border and content).</li>
+              <li>Border: Area surrounding the padding.</li>
+              <li>Margin: Area surrounding the border.</li>
+              </ul>
+              <p><strong>5. What are the different types of Selectors in CSS?</strong></p>
+              <p>A CSS selector is the part of a CSS ruleset that actually selects the content you want to style. Different types of selectors are listed below.</p>
+              <p> <strong> i) Universal Selector:</strong> The universal selector works like a wildcard character, selecting all elements on a page. In the given example, the provided styles will get applied to all the elements on the page.
+                   <br>
+               <code>
+                 * { <br>
+                color: "green"; <br>
+                font-size: 20px;<br>
+                line-height: 25px;</code> 
+                }</p>
+                <p><strong>ii) Element Type Selector:</strong>  This selector matches one or more HTML elements of the same name. In the given example, the provided styles will get applied to all the ul elements on the page.
+                     <br>
+                  <code>
+                    ul { <br>
+                      line-style: none; <br>
+                      border: solid 1px #ccc; <br>
+                    }</p>
+                  </code> 
+                  <p> <strong>iii) ID Selector:</strong>   This selector matches any HTML element that has an ID attribute with the same value as that of the selector. In the given example, the provided styles will get applied to all the elements having ID as a container on the page.
+                    <br>
+                   <code> #container {    <br>
+                      width: 960px;  <br>
+                      margin: 0 auto;  <br>
+                    }  </p>
+                   </code>
+                    <p> <strong>iv) Class Selector: </strong> The class selector also matches all elements on the page that have their class attribute set to the same value as the class.  In the given example, the provided styles will get applied to all the elements having ID as the box on the page.
+                      <br>
+                     <code> .box { <br>
+                        padding: 10px; <br>
+                        margin: 10px; <br>
+                        width: 240px;<br>
+                      }  </p>
+                    </code>
+                     <p><strong>v)Grouping Selector</strong>It will be better to group the selectors, to minimize the code. To group selectors, separate each selector with a comma.
+                      <br>
+                      <code>
+                        h1 {    <br>
+                          text-align: center; <br>
+                          color: red; <br>
+                        }    <br>
+                        <br>
+                        h2 { <br>
+                          text-align: center;<br>
+                          color: red;<br>
+                        }   </p>
+                      </code>
+             <p><strong>6. What is the difference between inline, inline-block, and block?</strong></p>    
+             <p> <strong> i) Block Element:</strong>The block elements always start on a new line. They will also take space for an entire row or width. List of block elements are <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>.</p>     
+            <p><strong> ii) Inline Elements:</strong> Inline elements don't start on a new line, they appear on the same line as the content and tags beside them. Some examples of inline elements are 
+              <code>&lt;a&gt;</code> <code>&lt;span&gt;</code> <code>&lt;strong&gt;</code> <code>&lt;img&gt;</code>
+            <p><strong> iii)  Inline Block Elements:</strong>Inline-block elements are similar to inline elements, except they can have padding and margins added on all four sides.</p>
+            <p><strong>7. What is a Pseudo element? What is pseudo-class?</strong></p>
+            <p>Pseudo-classes select regular elements but under certain conditions like when the user is hovering over the link.</p>
+             <ul>
+               <li>:link</li>
+               <li>:visited</li>
+               <li>:hover</li>
+               <li>:active</li>
+               <li>:focus</li>
+             </ul>
+                 example: <br>
+                <code> a:hover {  <br>
+                  color: #FFOOFF; <br>
+                } <br>
+              </code> 
+              <p><strong>8. Explain CSS position property?</strong></p>
+              <p> <strong>Absolute</strong> To place an element exactly where you want to place it. absolute position is actually set relative to the element's parent. if no parent is available then the relative place to the page itself (it will default all the way back up to the element). </p>
+              <p><strong>Relative</strong>"Relative to itself". Setting position: relative; on an element and no other positioning attributes, it will no effect on its positioning. It allows the use of z-index on the element and it limits the scope of absolutely positioned child elements. Any child element will be absolutely positioned within that block. </p>
+              <p><strong>Fixed</strong>The element is positioned relative to the viewport or the browser window itself. viewport doesn't change if you scroll and hence the fixed element will stay right in the same position. </p>
+              <p><strong>Static</strong>Static default for every single page element. The only reason you would ever set an element to position: static is to forcefully-remove some positioning that got applied to an element outside of your control.</p>
+              <p><strong>Sticky</strong>Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned.</p>
+              <p><strong>8.Difference between CSS grid vs flexbox?</strong></p>
+              <p>CSS Grid Layout is a two-dimensional system, meaning it can handle both columns and rows. Grid layout is intended for larger-scale layouts which aren’t linear in design.
+                       <br>
+                Flexbox is largely a one-dimensional system (either in a column or a row). Flexbox layout is most appropriate to the components of an application.</p>
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div id="container"></div></p> 
+        </div>
+    </section>
+       <script src="../bootstrap-5.0.0-dist/bootstrap-5.0.0-dist/js/bootstrap.js"></script>
+       <script src="./css.js"></script>
+</body>
+</html>
